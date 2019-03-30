@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	justify-content: center;
+	height: 100%;
+	background-image: url("homebackground.jpg");
+	background-color: rgba(0, 0, 0, 0.6);
+	background-size: cover;
+}
+
+.topheader {
+	background-color: #095866;
+	font-family: sans-serif;
+	color: white;
+	padding: 10px 40px;
+	box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.6);
+}
+
+.topheader h1 {
+	margin: 0;
+}
+
+.loginform {
+	width: 300px;
+	height: 500px;
+	width: 300px;
+	margin: auto;
+	text-align: center;
+	background-color: white;
+	border-radius: 10px;
+	vertical-align: middle;
+	padding-top: 60px;
+	box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
+.formdiv {
+	width: 100%;
+	height: calc(100vh - 60px);
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#iusername {
+	margin: 8px;
+	height: 30px;
+	padding: 4px;
+	border: 2px solid #0f91a8;
+	border-radius:5px;
+	}
+
+#ipassword {
+	margin: 8px;
+	height: 30px;
+	padding: 4px;
+	border: 2px solid #0f91a8;
+	border-radius:5px;
+}
+
+#outerdiv {
+	height: 80%;
+	text-align: center;
+	display: flex;
+}
+
+#innerdiv {
+	margin: auto;
+}
+
+#loginbtn {
+	margin-top: 15px;
+	width: 100px;
+	height: 40px;
+	padding: 5px 10px;
+	border: 2px solid #0f91a8;
+	border-radius: 5px;
+	background-color: #0f91a8;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+	color: white;
+}
+
+#logintext {
+	font-size: 40px;
+	font-family: fantasy;
+	color: #0f91a8;
+	margin: 0;
+}
+
+#logintext2 {
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-top:10px;
+}
+
+#securityexception {
+	color: red;
+	font-style: italic;
+}
