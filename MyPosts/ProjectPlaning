@@ -1,0 +1,22 @@
+Requirements :
+
+-Login page using username & password 
+-Profile page that contains user's posts and creating new posts form
+-save and fetch data using h2 in-memory database
+-implement rest endpoint for search users public posts
+-handle empty search parameter exception
+-configure swagger-ui
+-secure the rest api
+
+
+
+
+planing & estimated time:
+
+-h2 configuration and creating entity    (30 mins)
+-creating (home,profile,searchresuts) pages (30mins)
+-creating repositories & services classes (30mins)
+-creating controller class and handle the requests {login,writepost,search,logout} (90 mins approximately)
+-handle login using spring security configuration (30 mins)
+-handle empty search parameter exception (15 mins)
+-Design jsp pages
